@@ -4,6 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
+//		Cliente c = new Cliente();
+//		c.setCPF("123456789");
+//		c.setNome("João Antônio");		
+//		
+//		System.out.println("O nome do cliente é: " + c.getNome());
+		
+		
+		
 		Humano danilo = new Humano("Danilo", 92, 1.92, 36);
 		danilo.Andar();
 		System.out.println("O IMC de " + danilo.Nome + " é: " + danilo.Imc + " e o seu gênero é " + danilo.Genero + ". Possui pêlo? " + danilo.PossuiPelo);
